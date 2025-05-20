@@ -18,7 +18,7 @@ import { getAuthenticatedUser } from '@edx/frontend-platform/auth';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { GymFooter as FooterSlot, GymHeader as Header } from '@openedx/gym-frontend';
+import { Footer as FooterSlot, Header } from '@openedx/gym-frontend';
 
 import messages from './i18n';
 import configureStore from './data/configureStore';
